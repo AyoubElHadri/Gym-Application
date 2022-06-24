@@ -7,13 +7,14 @@ const BodyPart = ({item, bodyPart, setBodyPart}) => {
     <Stack
       type="button"
       alignItems="center"
+      borderRadius='15px'
       justifyContent="center"
       className="bodyPart-card"
       sx={{
         borderTop: bodyPart === item ? "4px solid #ff2625" : "",
         backgroundColor: "#fff",
         borderBottomLeftRadius: "20px",
-        width: "270px",
+        width: "200px",
         height: "280px",
         cursor: "pointer",
         gap: "47px",
