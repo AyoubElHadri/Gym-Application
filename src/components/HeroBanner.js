@@ -25,7 +25,7 @@ const HeroBanner = () => {
           },
         }}
         mb="23px"
-        mt="30px"
+        mt="25px"
       >
         Sweat, Smile <br /> and Repeat
       </Typography>
